@@ -1,15 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jan  5 13:59:18 2014
-
-@author: alex
+Time series forecasting class.
 """
 
 import numpy as np
-import scipy as sp # Linear model taining
 
 # nonstandard imports:
-import data_utils as du
+from utils import data_utils as du
 
 class TimeSeries(object):
     """
